@@ -1,5 +1,7 @@
 package executor;
 
+import stringExercises.LongestPalindromeSubstring;
+
 public class Main {
 
     public static void main(String[] args) {

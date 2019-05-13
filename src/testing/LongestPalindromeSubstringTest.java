@@ -1,15 +1,17 @@
 package testing;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import stringExercises.LongestPalindromeSubstring;
 
 import static org.junit.Assert.*;
 
 public class LongestPalindromeSubstringTest {
-    private LongestPalindromeSubstring longestPalindromeSubstring;
+    LongestPalindromeSubstring longestPalindromeSubstring;
+
     @Before
-    public void init(){
+    public void init() {
         longestPalindromeSubstring = new LongestPalindromeSubstring();
     }
     @Test
@@ -25,6 +27,10 @@ public class LongestPalindromeSubstringTest {
     @Test
     public void test3() {
         assertEquals("", longestPalindromeSubstring.findLongestPalindrome("randomWord"));
+    }
+    @Test
+    public void test4() {
+        assertEquals(null, longestPalindromeSubstring.findLongestPalindrome(null));
     }
 
 
