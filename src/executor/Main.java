@@ -9,5 +9,6 @@ public class Main {
         TestRunner runner = new TestRunner();
         runner.longestPalindromeRun();
         runner.properParenthesesRun();
+        runner.stringRemoverRun();
     }
 }
