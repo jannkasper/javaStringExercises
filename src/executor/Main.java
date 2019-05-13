@@ -2,6 +2,7 @@ package executor;
 
 import stringExercises.LongestPalindromeSubstring;
 import stringExercises.ProperParentheses;
+import stringExercises.StringRemover;
 
 public class Main {
 
@@ -10,5 +11,7 @@ public class Main {
         runner.longestPalindromeRun();
         runner.properParenthesesRun();
         runner.stringRemoverRun();
+
+
     }
 }

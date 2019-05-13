@@ -3,7 +3,6 @@ package executor;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
-import stringExercises.stringRemover;
 import testing.LongestPalindromeSubstringTest;
 import testing.ProperParenthesesTest;
 import testing.stringRemoverTest;

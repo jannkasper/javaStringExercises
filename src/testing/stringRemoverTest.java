@@ -2,15 +2,15 @@ package testing;
 
 import org.junit.Before;
 import org.junit.Test;
-import stringExercises.stringRemover;
+import stringExercises.StringRemover;
 import static org.junit.Assert.*;
 
 public class stringRemoverTest {
-    stringRemover stringRemover;
+    StringRemover stringRemover;
 
     @Before
     public void init() {
-        stringRemover = new stringRemover();
+        stringRemover = new StringRemover();
     }
     @Test
     public void test1() {
@@ -24,7 +24,7 @@ public class stringRemoverTest {
 
     @Test
     public void test3() {
-        assertEquals("nana", stringRemover.removeText("bananabanana", "nana"));
+        assertEquals("baba", stringRemover.removeText("bananabanana", "nana"));
     }
     @Test
     public void test4() {
