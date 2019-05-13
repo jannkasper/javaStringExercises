@@ -29,7 +29,15 @@ public class ProperParenthesesTest {
     }
     @Test
     public void test4() {
-        assertEquals(null, properParentheses.checkParentheses(null));
+        assertEquals(false, properParentheses.checkParentheses(null));
+    }
+    @Test
+    public void test5() {
+        assertEquals(false, properParentheses.checkParentheses(""));
+    }
+    @Test
+    public void test6() {
+        assertEquals(false, properParentheses.checkParentheses("([)]"));
     }
 
 }
