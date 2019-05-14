@@ -21,7 +21,7 @@ public class StringRemover {
         if(base.isEmpty() || base.length() == 1)
             return base;
 
-            return base.charAt(0) + removeTextRecurention(base.substring(1), regex);
+        return base.charAt(0) + removeTextRecurention(base.substring(1), regex);
 
     }
 }

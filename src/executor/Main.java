@@ -8,9 +8,10 @@ public class Main {
 
     public static void main(String[] args) {
         TestRunner runner = new TestRunner();
-        runner.longestPalindromeRun();
-        runner.properParenthesesRun();
-        runner.stringRemoverRun();
+//        runner.longestPalindromeRun();
+//        runner.properParenthesesRun();
+//        runner.stringRemoverRun();
+        runner.anagramRun();
 
 
     }
