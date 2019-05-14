@@ -11,7 +11,8 @@ public class Main {
 //        runner.longestPalindromeRun();
 //        runner.properParenthesesRun();
 //        runner.stringRemoverRun();
-        runner.anagramRun();
+//        runner.anagramRun();
+        runner.stringReverseRun();
 
 
     }

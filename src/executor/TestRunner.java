@@ -3,6 +3,7 @@ package executor;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
+import stringExercises.StringReverse;
 import testing.AnagramTest;
 import testing.LongestPalindromeSubstringTest;
 import testing.ProperParenthesesTest;
@@ -47,6 +48,15 @@ public class TestRunner {
         Result result = JUnitCore.runClasses(AnagramTest.class);
 
         for ( Failure failure : result.getFailures()) {
+            System.out.println(failure.toString());
+        }
+        System.out.println(result.wasSuccessful());
+    }
+
+    public void stringReverseRun () {
+        Result result = JUnitCore.runClasses(StringReverse.class);
+
+        for (Failure failure : result.getFailures()){
             System.out.println(failure.toString());
         }
         System.out.println(result.wasSuccessful());
