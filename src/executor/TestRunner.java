@@ -4,10 +4,7 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 import stringExercises.StringReverse;
-import testing.AnagramTest;
-import testing.LongestPalindromeSubstringTest;
-import testing.ProperParenthesesTest;
-import testing.stringRemoverTest;
+import testing.*;
 
 public class TestRunner {
     public void longestPalindromeRun() {
@@ -54,7 +51,7 @@ public class TestRunner {
     }
 
     public void stringReverseRun () {
-        Result result = JUnitCore.runClasses(StringReverse.class);
+        Result result = JUnitCore.runClasses(StringReverseTest.class);
 
         for (Failure failure : result.getFailures()){
             System.out.println(failure.toString());
