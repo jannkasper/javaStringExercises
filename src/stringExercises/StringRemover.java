@@ -5,13 +5,15 @@ public class StringRemover {
         if(base == null)
             return null;
 
+        String output;
+
 //            1st Method
-//        base =  base.replaceAll(regex,"");
+        output =  base.replaceAll(regex,"");
 
 //            2nd Method
-        base =  removeTextRecurention(base, regex);
+        output =  removeTextRecurention(base, regex);
 
-        return base;
+        return output;
     }
 
     public String removeTextRecurention(String base, String regex) {
