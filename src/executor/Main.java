@@ -2,7 +2,10 @@ package executor;
 
 import stringExercises.LongestPalindromeSubstring;
 import stringExercises.ProperParentheses;
+import stringExercises.StringPermutation;
 import stringExercises.StringRemover;
+
+import java.util.Arrays;
 
 public class Main {
 
@@ -12,7 +15,8 @@ public class Main {
 //        runner.properParenthesesRun();
 //        runner.stringRemoverRun();
 //        runner.anagramRun();
-        runner.stringReverseRun();
+//        runner.stringReverseRun();
+        runner.stringPermutationRun();
 
 
     }

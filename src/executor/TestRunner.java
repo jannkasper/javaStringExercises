@@ -59,4 +59,13 @@ public class TestRunner {
         System.out.println(result.wasSuccessful());
     }
 
+    public void stringPermutationRun () {
+        Result result = JUnitCore.runClasses(StringPermutationTest.class);
+
+        for (Failure failure : result.getFailures()){
+            System.out.println(failure.toString());
+        }
+        System.out.println(result.wasSuccessful());
+    }
+
 }
